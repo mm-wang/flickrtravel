@@ -114,6 +114,7 @@ Far West              |West                   | Central              | East
 
 
 
+
 # What Will Happen in 2019?
 
 Based on the analysis, the __Pacific Northwest__ will be the most popular place, holding its status from 2000 onward. The least popular locations will be Hawaii and the South. There will be a growing trend in visits to Central America, and to California.
