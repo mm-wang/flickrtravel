@@ -81,10 +81,10 @@ This analysis focused on the United States and Central America, and K-Means Clus
 ![kmclusters]
 
 ## Predictions
-	*[pc2] 'Hawaii'
-	*[pc4] 'Alaska'
-	*[pc14] 'Canada'
-	*[pc6] 'Pacific Northwest'
+*[pc2] 'Hawaii'
+*[pc4] 'Alaska'
+*[pc14] 'Canada'
+*[pc6] 'Pacific Northwest'
 
 ## Final Analysis
 
