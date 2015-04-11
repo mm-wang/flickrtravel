@@ -70,8 +70,10 @@ Cleaning consisted of the following steps:
 
 Through explorations of the camera brands apparent in the dataset, it is clear that there is a growth of Canon cameras over time, although the introduction of the Apple iPhone in 2007 quickly brings Apple into the ring for contention. 
 
-[cb2006]
-[cb2007]
+2006                             | 2007
+:-------------------------------:|:-------------------------------:
+![cb2006]                        | ![cb2007]
+
 
 ## Final Analysis
 
