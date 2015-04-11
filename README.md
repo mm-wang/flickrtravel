@@ -60,7 +60,8 @@ People typically travel to take photographs, or go to a specific place to take p
 ## The Preprocessing/Cleaning/Manipulation
 
 The Flickr database consists of the following: 
-	> Photo/video ID, User NSID, User nickname, Date taken, Date uploaded, Capture device, Title, Description, User tags (comma-separated), Machine tags (comma-separated). Longitude, Latitude, Accuracy, Photo/video page URL, Photo/video download URL, License name, License URL, Photo/video server identifier, Photo/video farm identifier, Photo/video secret, Photo/video secret original, Photo/video extension original, Photos/video marker (0 = photo, 1 = video)
+
+> Photo/video ID, User NSID, User nickname, Date taken, Date uploaded, Capture device, Title, Description, User tags (comma-separated), Machine tags (comma-separated). Longitude, Latitude, Accuracy, Photo/video page URL, Photo/video download URL, License name, License URL, Photo/video server identifier, Photo/video farm identifier, Photo/video secret, Photo/video secret original, Photo/video extension original, Photos/video marker (0 = photo, 1 = video)
 
 Cleaning consisted of the following steps:
 - Taking out any cameras with "scan" in the name
@@ -75,21 +76,27 @@ Through explorations of the camera brands apparent in the dataset, it is clear t
 
 ## Clustering Optimization and Analysis
 
-This analysis focused on the United States and Central America, and K-Means Clustering was used to break up the area into regions. To develop the optimal number of clusters, a silhouette score was assigned to a range of clusters. Using the scores as a guideline, the final number of clusters selected was 15.
+This analysis focused on the United States and Central America, and K-Means Clustering was used to break up the area into regions. To develop the optimal number of clusters, a silhouette score was assigned to a range of clusters. Using the scores as a guideline, the final number of clusters selected was 15. 
 
 ![kmsil]
 ![kmclusters]
 
-## Predictions
-Far West              |West                   | Middle               | East                
+## Linear Regression
+
+The points were grouped into each sluter, and used that to create the set of time series below, sorted by region. On average, the R-squared values were 86.2%, with a root mean square error of 11.9%, using a time-slice of five years to predict each sixth year. 
+
+
+Far West              |West                   | Central              | East                
 :--------------------:|:---------------------:|:--------------------:|:--------------------:
-[Hawaii]              |[Pacific Northwest]    |[Northern Mountains]  |[Northeast]
-[Alaska]              |[California]           |[Rocky Mountains]     |[Mid-Atlantic]
-[Western Canada]      |[Southwest]            |[Great Lakes]         |[Southeast]
+[Alaska]              |[Pacific Northwest]    |[Northern Mountains]  |[Northeast]
+[Western Canada]      |[California]           |[Rocky Mountains]     |[Mid-Atlantic]
+[Hawaii]              |[Southwest]            |[Great Lakes]         |[Southeast]
                       |[Central America]	  |[South]               |[Caribbean]
-         
 
+## What Will Happen in 2019?
 
-## Final Analysis
+Based on the analysis, the __Pacific Northwest__ will be the most popular place, holding its status from 2000 onward. The least popular locations will be Hawaii and the South. There will be a growing trend in visits to Central America, and to California.
 
-My final analysis involved using K-Means clustering to develop a set of regions to analyze the United States and part of Central America in particular. To determine the number of clusters, I used a silhouette score and picked a higher performing number of clusters that still gave me more varied regions than just 3. I then grouped points into each cluster by year, and used that information to create a time series and perform a linear regression.
+## Next Steps
+
+This has been based on a simple K-Means clustering, with the number of clusters fine tuned. It also has been sliced into a simple year by year time series, and analyed using linear regression. It would be interesting to find a method of applying K-Medians to the area, to find the more dense locations, and to apply a support vector regression as well. Until then, enjoy!
