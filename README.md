@@ -111,6 +111,9 @@ Far West              |West                   | Central              | East
 
 Based on the analysis, the __Pacific Northwest__ will be the most popular place, holding its status from 2000 onward. The least popular locations will be Hawaii and the South. There will be a growing trend in visits to Central America, and to California.
 
+_Pacific Northwest:_
+![Pacific Northwest]
+
 ## Next Steps
 
 This has been based on a simple K-Means clustering, with the number of clusters fine tuned. It also has been sliced into a simple year by year time series, and analyed using linear regression. It would be interesting to find a method of applying K-Medians to the area, to find the more dense locations, and to apply a support vector regression as well. Until then, enjoy!
