@@ -49,13 +49,13 @@
 
 
 # Predicting Travel Patterns Using Flickr
-Using the 100 Million Photos and Videos database from Flickr to predict travel patterns.
+Using the 100 Million Photos and Videos database from Flickr to predict travel patterns within the United States and Central America.
 
 ## The Hypothesis:
 
 People typically travel to take photographs, or go to a specific place to take photographs. Even if it is their backyard, it is a place that has meaning and visual attraction. I am interested in looking at photography as a predictor of ideal locations to travel to. Where do people like to take photographs? Where _will_ people like to take photographs?
 
-### *Where will people travel?*
+#### *Where will people travel?*
 
 ## The Preprocessing/Cleaning/Manipulation
 
@@ -70,8 +70,21 @@ Cleaning consisted of the following steps:
 
 Through explorations of the camera brands apparent in the dataset, it is clear that there is a growth of Canon cameras over time, although the introduction of the Apple iPhone in 2007 quickly brings Apple into the ring for contention. 
 
-![cb2006]                        | ![cb2007]
+![cb2006]                         
+![cb2007]
 
+## Clustering Optimization and Analysis
+
+This analysis focused on the United States and Central America, and K-Means Clustering was used to break up the area into regions. To develop the optimal number of clusters, a silhouette score was assigned to a range of clusters. Using the scores as a guideline, the final number of clusters selected was 15.
+
+![kmsil]
+![kmclusters]
+
+## Predictions
+	*[pc2] 'Hawaii'
+	*[pc4] 'Alaska'
+	*[pc14] 'Canada'
+	*[pc6] 'Pacific Northwest'
 
 ## Final Analysis
 
