@@ -61,7 +61,21 @@ People typically travel to take photographs, or go to a specific place to take p
 
 The Flickr database consists of the following: 
 
-> Photo/video ID, User NSID, User nickname, Date taken, Date uploaded, Capture device, Title, Description, User tags (comma-separated), Machine tags (comma-separated). Longitude, Latitude, Accuracy, Photo/video page URL, Photo/video download URL, License name, License URL, Photo/video server identifier, Photo/video farm identifier, Photo/video secret, Photo/video secret original, Photo/video extension original, Photos/video marker (0 = photo, 1 = video)
+> Photo/video ID
+> User NSID, User nickname
+> Date taken
+> Date uploaded
+> Capture device
+> Title, Description
+> User tags (comma-separated), Machine tags (comma-separated)
+> Longitude, Latitude
+> Accuracy
+> Photo/video page URL, Photo/video download URL
+> License name, License URL
+> Photo/video server identifier, Photo/video farm identifier
+> Photo/video secret, Photo/video secret original
+> Photo/video extension original
+> Photos/video marker (0 = photo, 1 = video)
 
 Cleaning consisted of the following steps:
 - Taking out any cameras with "scan" in the name
