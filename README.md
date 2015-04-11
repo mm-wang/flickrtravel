@@ -81,14 +81,13 @@ This analysis focused on the United States and Central America, and K-Means Clus
 ![kmclusters]
 
 ## Predictions
-West                    | Middle                 | East
-:----------------------:|:----------------------:|:----------------------:
-*[Hawaii]               |*[Northern Mountains]   |*[Northeast]
-*[Alaska]               |*[Rocky Mountains]      |*[Mid-Atlantic]
-*[Western Canada]       |*[Great Lakes]          |*[Southeast]
-*[Pacific Northwest]    |*[South]                |*[Caribbean]
-*[California]           |*[Central America]      |
-*[Southwest]            |                        |
+Far West              |West                   | Middle               | East                
+:--------------------:|:---------------------:|:--------------------:|:--------------------:
+[Hawaii]              |[Pacific Northwest]    |[Northern Mountains]  |[Northeast]
+[Alaska]              |[California]           |[Rocky Mountains]     |[Mid-Atlantic]
+[Western Canada]      |[Southwest]            |[Great Lakes]         |[Southeast]
+                      |[Central America]	  |[South]               |[Caribbean]
+         
 
 
 ## Final Analysis
