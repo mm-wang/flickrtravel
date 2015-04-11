@@ -31,21 +31,21 @@
 [cl2013]: /images/clusters_2013color.jpg
 [cl2014]: /images/clusters_2014color.jpg
 
-[pc0]: /images/prediction_cluster0.jpg
-[pc1]: /images/prediction_cluster1.jpg
-[pc2]: /images/prediction_cluster2.jpg
-[pc3]: /images/prediction_cluster3.jpg
-[pc4]: /images/prediction_cluster4.jpg
-[pc5]: /images/prediction_cluster5.jpg
-[pc6]: /images/prediction_cluster6.jpg
-[pc7]: /images/prediction_cluster7.jpg
-[pc8]: /images/prediction_cluster8.jpg
-[pc9]: /images/prediction_cluster9.jpg
-[pc10]: /images/prediction_cluster10.jpg
-[pc11]: /images/prediction_cluster11.jpg
-[pc12]: /images/prediction_cluster12.jpg
-[pc13]: /images/prediction_cluster13.jpg
-[pc14]: /images/prediction_cluster14.jpg
+[Pacific Northwest]: /images/prediction_cluster0.jpg
+[Mid-Atlantic]: /images/prediction_cluster1.jpg
+[Hawaii]: /images/prediction_cluster2.jpg
+[South]: /images/prediction_cluster3.jpg
+[Alaska]: /images/prediction_cluster4.jpg
+[Southwest]: /images/prediction_cluster5.jpg
+[Central America]: /images/prediction_cluster6.jpg
+[Northern Mountains]: /images/prediction_cluster7.jpg
+[Great Lakes]: /images/prediction_cluster8.jpg
+[Southeast]: /images/prediction_cluster9.jpg
+[California]: /images/prediction_cluster10.jpg
+[Northeast]: /images/prediction_cluster11.jpg
+[Caribbean]: /images/prediction_cluster12.jpg
+[Rocky Mountains]: /images/prediction_cluster13.jpg
+[Western Canada]: /images/prediction_cluster14.jpg
 
 
 # Predicting Travel Patterns Using Flickr
@@ -81,10 +81,15 @@ This analysis focused on the United States and Central America, and K-Means Clus
 ![kmclusters]
 
 ## Predictions
-*[pc2] 'Hawaii'
-*[pc4] 'Alaska'
-*[pc14] 'Canada'
-*[pc6] 'Pacific Northwest'
+West                    | Middle                 | East
+:----------------------:|:----------------------:|:----------------------:
+*[Hawaii]               |*[Northern Mountains]   |*[Northeast]
+*[Alaska]               |*[Rocky Mountains]      |*[Mid-Atlantic]
+*[Western Canada]       |*[Great Lakes]          |*[Southeast]
+*[Pacific Northwest]    |*[South]                |*[Caribbean]
+*[California]           |*[Central America]      |
+*[Southwest]            |                        |
+
 
 ## Final Analysis
 
