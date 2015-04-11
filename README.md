@@ -111,8 +111,21 @@ Far West              |West                   | Central              | East
 
 Based on the analysis, the __Pacific Northwest__ will be the most popular place, holding its status from 2000 onward. The least popular locations will be Hawaii and the South. There will be a growing trend in visits to Central America, and to California.
 
-_Pacific Northwest:_
+_Pacific Northwest_
 ![Pacific Northwest]
+
+_Central America_
+![Central America]
+
+_California_
+![California]
+
+_Hawaii_
+![Hawaii]
+
+_South_
+![South]
+
 
 ## Next Steps
 
