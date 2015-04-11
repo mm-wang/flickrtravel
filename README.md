@@ -57,6 +57,8 @@ People typically travel to take photographs, or go to a specific place to take p
 
 #### *Where will people travel?*
 
+
+
 ## The Preprocessing/Cleaning/Manipulation
 
 The Flickr database consists of the following: 
@@ -81,6 +83,7 @@ Cleaning consisted of the following steps:
 - Taking out any cameras with "scan" in the name
 - Binning the rest of the camera brands, putting any that occur less than 1% of the time into a category "Other"
 
+
 ## Visual Explorations
 
 Through explorations of the camera brands apparent in the dataset, it is clear that there is a growth of Canon cameras over time, although the introduction of the Apple iPhone in 2007 quickly brings Apple into the ring for contention. 
@@ -88,12 +91,14 @@ Through explorations of the camera brands apparent in the dataset, it is clear t
 ![cb2006]                         
 ![cb2007]
 
+
 ## Clustering Optimization and Analysis
 
 This analysis focused on the United States and Central America, and K-Means Clustering was used to break up the area into regions. To develop the optimal number of clusters, a silhouette score was assigned to a range of clusters. Using the scores as a guideline, the final number of clusters selected was 15. 
 
 ![kmsil]
 ![kmclusters]
+
 
 ## Linear Regression
 
@@ -107,7 +112,9 @@ Far West              |West                   | Central              | East
 [Hawaii]              |[Southwest]            |[Great Lakes]         |[Southeast]
                       |[Central America]	  |[South]               |[Caribbean]
 
-## What Will Happen in 2019?
+
+
+# What Will Happen in 2019?
 
 Based on the analysis, the __Pacific Northwest__ will be the most popular place, holding its status from 2000 onward. The least popular locations will be Hawaii and the South. There will be a growing trend in visits to Central America, and to California.
 
@@ -122,9 +129,6 @@ _California_
 
 _Hawaii_
 ![Hawaii]
-
-_South_
-![South]
 
 
 ## Next Steps
