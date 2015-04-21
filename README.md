@@ -137,7 +137,7 @@ _Hawaii_
 This analysis has been based on a simple K-Means clustering, with the number of clusters fine tuned. It also has been sliced into a simple year by year time series, and analyzed using linear regression. 
 
 ### More Diversified Data
-Using a database of only Flickr photos introduces biases to the data and the prediction. For example, the relative popularity of flickr has [evolved](http://gizmodo.com/flashback-how-yahoo-killed-flickr-and-lost-the-interne-508852335) and peaked around 2010-2011, and has noticeably declined. The rise of various photo-sharing services such as Instagram, Twitter, Facebook, etc. have affected the total photos uploaded to Flickr. 
+Using a database of only Flickr photos introduces biases to the data and the prediction. For example, the relative popularity of Flickr has [evolved](http://gizmodo.com/flashback-how-yahoo-killed-flickr-and-lost-the-interne-508852335) and peaked around 2010-2011, and has noticeably declined. The rise of various photo-sharing services such as Instagram, Twitter, Facebook, etc. have affected the total photos uploaded to Flickr. 
 
 To improve the prediction, the information from these sources would need to be added and adjusted. There will continue to be biases based on the demographics of each user base, and how the services are used.
 
