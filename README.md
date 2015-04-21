@@ -134,4 +134,19 @@ _Hawaii_
 
 ## Next Steps
 
-This has been based on a simple K-Means clustering, with the number of clusters fine tuned. It also has been sliced into a simple year by year time series, and analyed using linear regression. It would be interesting to find a method of applying K-Medians to the area, to find the more dense locations, and to apply a support vector regression as well. Until then, enjoy!
+This analysis has been based on a simple K-Means clustering, with the number of clusters fine tuned. It also has been sliced into a simple year by year time series, and analyzed using linear regression. 
+
+# More Diversified Data
+Using a database of only Flickr photos introduces biases to the data and the prediction. For example, the relative popularity of flickr has [evolved](http://gizmodo.com/flashback-how-yahoo-killed-flickr-and-lost-the-interne-508852335) and peaked around 2010-2011, and has noticeably declined. The rise of various photo-sharing services such as Instagram, Twitter, Facebook, etc. have affected the total photos uploaded to Flickr. 
+
+To improve the prediction, the information from these sources would need to be added and adjusted. There will continue to be biases based on the demographics of each user base, and how the services are used.
+
+# More Models
+It would be interesting to find a method of applying K-Medians to the area, to find the more dense locations. 
+
+The model used above to predict on the number of photos is a linear regression model from statsmodels. I also used support vector regression and linear support vector regression models to check. They were less stable in the face of the limited data, and produced less accurate forecasts.
+
+# Smaller Time Slices
+To gain granularity, it would be prudent to block out the pictures by month, and gain more noise but also more information to define the forecast accurately.
+
+Until then, enjoy!
