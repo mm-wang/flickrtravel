@@ -102,7 +102,7 @@ This analysis focused on the United States and Central America, and K-Means Clus
 
 ## Linear Regression
 
-The points were grouped into each sluter, and used that to create the set of time series below, sorted by region. On average, the R-squared values were 86.2%, with a root mean square error of 11.9%, using a time-slice of five years to predict each sixth year. 
+The points were grouped into each cluster, and used that to create the set of time series below, sorted by region. On average, the R-squared values were 86.2%, with a root mean square error of 11.9%, using a time-slice of five years to predict each sixth year. 
 
 
 Far West              |West                   | Central              | East                
